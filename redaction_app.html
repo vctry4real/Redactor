@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Redaction App</title>
+    <link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+    
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="redaction_app.html">Redaction App</a>
+        <!-- Add other links as needed -->
+    </nav>
+
+    <div id="container">
+        <h2>Redaction App</h2>
+
+        <label for="redact-input">Enter text to redact:</label>
+        <textarea id="redact-input" rows="4"></textarea>
+
+        <label for="replacement-input">Words to redact (separated by spaces):</label>
+        <input type="text" id="replacement-input">
+
+        <label for="replace-with">Replace with:</label>
+        <input type="text" id="replace-with" placeholder="e.g., ****">
+
+        <button onclick="redactContent()">Redact Now</button>
+
+        <div id="redacted-content"></div>
+
+        <div id="stats"></div>
+    </div>
+
+    <script src="redaction.js"></script>
+</body>
+</html>

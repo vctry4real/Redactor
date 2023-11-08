@@ -1,0 +1,115 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
+
+nav {
+    background-color: #444;
+    padding: 10px;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 20px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    color: #66b3ff;
+}
+
+.container {
+    width: 80%;
+    margin-left: 10rem;
+    margin-top: 6rem;
+    padding: 20px;
+    border-radius: 5px;
+    
+}
+
+p{
+    margin-bottom: 1.5rem;
+}
+
+h1, h2 {
+    text-align: left;
+    margin-bottom: 2rem;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input, textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: #555;
+}
+
+#redacted-content, #stats {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.hero {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 65vh;
+    max-height: 600px;
+    align-items: center;
+
+}
+
+img {
+    object-fit: cover;
+    height: min(65vh, 600px);
+    width: auto;
+    transition: 180ms width ease-in;
+}
+
+.hero_paragraph{
+    margin-left: 5%;
+    
+    
+}
+
